@@ -7,24 +7,24 @@ class Agentgen < Formula
   on_macos do
     on_intel do
       url "https://github.com/Agent-Gen-com/agent-gen-lib/releases/download/cli-v#{version}/agentgen-x86_64-macos.tar.gz"
-      sha256 "4f4fc4ce257f18b8f8a2a7179920b43fe6b02aa18fb650dcc5f1d9cc7f211a75"
+      sha256 "b71427774c1cb54af233970ebea410cce0375ca8933fd466fc943c53c045d47a"
     end
 
     on_arm do
       url "https://github.com/Agent-Gen-com/agent-gen-lib/releases/download/cli-v#{version}/agentgen-aarch64-macos.tar.gz"
-      sha256 "0ac8407b854332115c26a3d9e1ff69b1fde05eb7946307fb17e276c46af03729"
+      sha256 "84017b930a3d8d38f65b582a9ddc3581b851d0187395d296618716046b64b195"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Agent-Gen-com/agent-gen-lib/releases/download/cli-v#{version}/agentgen-x86_64-linux.tar.gz"
-      sha256 "2abfa97b4ecef3a442ec5d6ca0abe6a784f07c0b71791b3337782e988ae49b8f"
+      sha256 "9f5aa1907588316ccc41cbd3fa1a0ea08fce3e1b4e30072d0c6db670ce226652"
     end
 
     on_arm do
       url "https://github.com/Agent-Gen-com/agent-gen-lib/releases/download/cli-v#{version}/agentgen-aarch64-linux.tar.gz"
-      sha256 "2bb6655c5b5f2307ac64e6404df905570cd2a22e0a40a3c4e0d8e54af42fed38"
+      sha256 "41a36943b68b3a57fbf6c3ea1136c869f167fb9d073053c249acff586f2d02bc"
     end
   end
 

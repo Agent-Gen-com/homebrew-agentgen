@@ -1,7 +1,7 @@
 class Agentgen < Formula
   desc "CLI for the AgentGen API — HTML to PDF and Image"
   homepage "https://www.agent-gen.com"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do

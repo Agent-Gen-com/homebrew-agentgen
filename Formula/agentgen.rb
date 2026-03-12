@@ -1,30 +1,30 @@
 class Agentgen < Formula
   desc "CLI for the AgentGen API — HTML to PDF and Image"
   homepage "https://www.agent-gen.com"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/Agent-Gen-com/agent-gen-lib/releases/download/cli-v#{version}/agentgen-x86_64-macos.tar.gz"
-      sha256 "883303d1c35ffa9d512ffe09c8b3f34644eae83a6e1e99fbafd27f05dcad5cba"
+      sha256 "41408dd0c6d627cc163cf4d6b78621fa7d5159309e26082e0bf081f6f2b82609"
     end
 
     on_arm do
       url "https://github.com/Agent-Gen-com/agent-gen-lib/releases/download/cli-v#{version}/agentgen-aarch64-macos.tar.gz"
-      sha256 "b2eb8fc963df79bfafd7caeb122d5d6d5e8f82312b8d7b0a46e585a133e25d83"
+      sha256 "ff3e5036c5b37bc053d5dd080041d451bc911605e78d31ffe4aed7d6ca635409"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Agent-Gen-com/agent-gen-lib/releases/download/cli-v#{version}/agentgen-x86_64-linux.tar.gz"
-      sha256 "bdb96103f9dfce8fe6cc681da91111ef0124b49fff5e24037090515593749b30"
+      sha256 "3440175845ef02ac862517e6fa96d018097712c54d1fc7231c68463118464ad4"
     end
 
     on_arm do
       url "https://github.com/Agent-Gen-com/agent-gen-lib/releases/download/cli-v#{version}/agentgen-aarch64-linux.tar.gz"
-      sha256 "ebd815637c3d64da8ef120dc18f9e74cf18451177c135abcff8265b22db109aa"
+      sha256 "63cef0a50933fe28cf81413ba25ad0ade1ccc3893ecdc314fdf412d05799a28e"
     end
   end
 
